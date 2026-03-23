@@ -1,0 +1,254 @@
+# Perfis de Monitoramento OSINT
+# Cada perfil contém keywords específicas para um contextoo
+########################################BY @IVM4NSEC ##################
+
+profiles:
+  # ===== SEGURANÇA E FRAUDES =====
+  
+  carding:
+    description: "Monitoramento de fraudes com cartões e carding"
+    keywords:
+      - gg
+      - cc
+      - esquema
+      - esquema novo
+      - trampo
+      - metodo 2026
+      - metodo
+      - cartão de crédito
+      - bin
+      - live
+      - die
+      - cvv
+      - fullz
+      - amz
+      - cpf
+      - amex
+      - aprovar
+      - aprovação
+      - amazon
+      - "552289"
+      - "546479"
+      - "498431"
+      - "485464"
+      - "gg santa"
+      - nas master
+      - checker
+      - aprovando
+      - passando
+      - método
+      - drop
+      - "422061"
+      - "512267"
+      - cashout
+      - refund
+    threshold: 0.6
+    created_at: "2026-01-12T00:00:00"
+  
+  vazamentos:
+    description: "Monitorar vazamentos de dados e leaks"
+    keywords:
+      - leak
+      - dump
+      - breach
+      - database
+      - vazamento
+      - hack
+      - exploit
+      - vulnerability
+      - 0day
+      - senha
+      - password
+      - credentials
+      - combolist
+    threshold: 0.7
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== CRIPTOMOEDAS =====
+  
+  crypto:
+    description: "Monitorar discussões sobre criptomoedas"
+    keywords:
+      - bitcoin
+      - btc
+      - ethereum
+      - eth
+      - crypto
+      - binance
+      - exchange
+      - wallet
+      - mining
+      - altcoin
+      - pump
+      - dump
+      - usdt
+      - blockchain
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== MERCADO DE TRABALHO =====
+  
+  empregos:
+    description: "Oportunidades de trabalho e freelas"
+    keywords:
+      - trampo
+      - vaga
+      - freela
+      - trabalho
+      - emprego
+      - remoto
+      - desenvolvedor
+      - programador
+      - designer
+      - marketing
+      - home office
+      - contrato
+      - pj
+      - clt
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== TECNOLOGIA =====
+  
+  tech:
+    description: "Discussões gerais de tecnologia"
+    keywords:
+      - python
+      - javascript
+      - react
+      - node
+      - api
+      - github
+      - docker
+      - kubernetes
+      - aws
+      - cloud
+      - inteligência artificial
+      - machine learning
+      - chatgpt
+      - ai
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== E-COMMERCE E VENDAS =====
+  
+  ecommerce:
+    description: "Monitorar vendas e e-commerce"
+    keywords:
+      - shopify
+      - mercado livre
+      - amazon
+      - vendas
+      - dropshipping
+      - produto
+      - estoque
+      - fornecedor
+      - atacado
+      - revenda
+      - marketplace
+      - frete
+      - logística
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== MARKETING E NEGÓCIOS =====
+  
+  marketing:
+    description: "Marketing digital e estratégias"
+    keywords:
+      - tráfego
+      - anúncio
+      - facebook ads
+      - google ads
+      - instagram
+      - influencer
+      - conversão
+      - landing page
+      - funil
+      - copywriting
+      - seo
+      - lead
+      - roi
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== JOGOS E GAMING =====
+  
+  gaming:
+    description: "Comunidade gamer e jogos"
+    keywords:
+      - game
+      - jogo
+      - steam
+      - ps5
+      - xbox
+      - nintendo
+      - esports
+      - twitch
+      - streamer
+      - fps
+      - mmorpg
+      - gameplay
+      - guia
+    threshold: 0.5
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== INVESTIMENTOS =====
+  
+  investimentos:
+    description: "Mercado financeiro e investimentos"
+    keywords:
+      - ações
+      - bolsa
+      - b3
+      - dividendos
+      - fii
+      - fundos imobiliários
+      - tesouro direto
+      - renda fixa
+      - renda variável
+      - day trade
+      - swing trade
+      - análise técnica
+      - análise fundamentalista
+    threshold: 0.6
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== SEGURANÇA DA INFORMAÇÃO =====
+  
+  infosec:
+    description: "Segurança da informação e pentest"
+    keywords:
+      - pentest
+      - segurança
+      - firewall
+      - vpn
+      - malware
+      - ransomware
+      - phishing
+      - sql injection
+      - xss
+      - csrf
+      - burp suite
+      - metasploit
+      - kali linux
+      - cve
+    threshold: 0.6
+    created_at: "2026-01-12T00:00:00"
+  
+  # ===== PERSONALIZADO (EXEMPLO) =====
+  
+  custom:
+    description: "Perfil customizado - edite conforme necessário"
+    keywords:
+      - termo1
+      - termo2
+      - termo3
+    threshold: 0.6
+    created_at: "2026-01-12T00:00:00"
+
+# Configurações globais de perfis
+settings:
+  auto_rotate: false          # Rotacionar perfis automaticamente
+  rotate_interval_hours: 24   # Intervalo de rotação
+  max_keywords_per_profile: 50  # Limite de keywords por perfil

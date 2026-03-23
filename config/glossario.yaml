@@ -1,0 +1,111 @@
+# Glossário de Gírias - Contexto Carding/Fraude
+# Adicione ou edite conforme necessário
+
+glossario:
+  # Termos de Cartões
+  gg: "cartões gerados/clonados (cartões fraudulentos)"
+  bin: "primeiros 6 dígitos do cartão (identifica banco/bandeira)"
+  live: "cartão válido/ativo que está funcionando"
+  die: "cartão inválido/queimado"
+  dead: "cartão morto/não funciona mais/queimado"
+  cvv: "código de segurança do cartão (3-4 dígitos)"
+  cvc: "código de segurança do cartão (3-4 dígitos)"
+  cc: "credit card (cartão de crédito)"
+  cc full: "credit card (cartão de crédito com todos os dados)"
+  fullz: "dados completos (nome, CPF, endereço, cartão, etc)"
+  lara: "laranja/conta laranja"
+  
+  # Termos de Atividade
+  carding: "uso fraudulento de cartões de crédito"
+  checker: "ferramenta/bot para testar se cartão está ativo"
+  chk: "ferramenta/site que testar os cartões"
+  aprovando: "cartão está passando/funcionando em transações"
+  passando: "cartão está sendo aceito em compras"
+  hit: "sucesso em fraude/compra aprovada"
+  miss: "falha na tentativa de fraude"
+  171: "bandido estelionatário"
+  esquema: "métodos de fraude funcionando"
+  
+  # Termos de Infraestrutura
+  drop: "endereço de entrega para receber compras fraudulentas"
+  store: "loja online de dados/fraude"
+  método: "técnica específica de fraude ou ataque"
+  method: "método de fraude ou bypass"
+  vpn: "rede privada virtual para esconder localização"
+  
+  # Termos Financeiros
+  trampo: "trabalho/oportunidade (geralmente ilegal)"
+  grana: "dinheiro"
+  lucro: "ganho financeiro da fraude"
+  
+  # Termos de Qualidade
+  fresh: "dados/cartões recém obtidos"
+  old: "dados/cartões antigos"
+  valid: "válido/funcionando"
+  invalid: "inválido/não funciona"
+  
+  # Termos de Segurança
+  opsec: "operational security (segurança operacional)"
+  leak: "vazamento de dados"
+  dump: "conjunto de dados vazados"
+  breach: "violação de segurança/vazamento"
+  
+  # Termos Específicos
+  "512267": "BIN específico (provavelmente compromissado)"
+  "422061": "BIN específico (provavelmente compromissado)"
+  paypal: "plataforma de pagamento online"
+  pix: "sistema de pagamento instantâneo brasileiro"
+  bb: "banco do brasil"
+  santa: "banco santander"
+  pan: "banco panamericano"
+  sicredi: "banco sicredi"
+  itau: "banco itau"
+  aliex: "site Aliexpress"
+  
+  # Ações
+  testar: "verificar se cartão/método funciona"
+  validar: "confirmar que dados são válidos"
+  clonar: "copiar dados de cartão"
+  cashout: "sacar/realizar lucro da fraude"
+  sacar: "sacar/realizar lucro da fraude"
+  bet: "casa de aposta"
+  tigre: "casa de aposta"
+  tigrin: "casa de aposta"
+  tigrinho: "casa de aposta"
+  source: "script/bots"
+  
+  
+  # Participantes
+  carder: "pessoa que pratica carding"
+  seller: "vendedor de dados/serviços ilegais"
+  buyer: "comprador de dados/serviços ilegais"
+  ripper: "golpista que engana outros criminosos"
+  scammer: "ladrão"
+  lotter: "ladrão"
+  lot: "ladrão"
+  p2: "policial/investigador"
+  
+# Contexto Adicional
+contexto_especifico:
+  descricao: |
+    Este bot monitora grupos relacionados a carding, fraudes financeiras
+    e atividades de cartões clonados. As mensagens geralmente envolvem:
+    - Venda de cartões clonados (GG)
+    - Compartilhamento de BINs válidos
+    - Métodos de fraude
+    - Grupos de "trabalho" ilegal
+    
+  padroes_comuns:
+    - "GG por R$X": Venda de cartões gerados com cvv errado
+    - "BIN XXXXX live": BIN específico está live
+    - "método PayPal": Técnica de fraude no PayPal
+    - "método amz": Técnica de fraude no Amazon
+    - "método amazon": Técnica de fraude no Amazon
+    - "método ML": Técnica de fraude no Mercado Livre
+    - "método ifood": Técnica de fraude no iFood
+    - "método 99": Técnica de fraude no 99Corridas/99Food
+    - "método MC": Técnica de fraude no McDonald's
+    - "bug bin": banco com falha na validação do CVV/CVC
+    - "bin bugada": banco com falha na validação do CVV/CVC
+    - "Drop disponível": Endereço de entrega disponível
+    - "Checker testado": Ferramenta de teste validada

@@ -1,0 +1,64 @@
+############BY @IVM4NSEC ###########
+database:
+  enable_vector_search: true
+  path: ./data/osint.db
+logging:
+  backup_count: 5
+  file: ./logs/osint.log
+  level: INFO
+  max_size_mb: 50
+ollama:
+  base_url: http://localhost:11434
+  embedding_model: nomic-embed-text:latest
+  max_tokens: 2048
+  model: qwen2.5:7b-instruct
+  temperature: 0.3
+  top_p: 0.9
+osint:
+  active_profile: carding
+  check_interval: 45 #segundos
+  history_days: 7 #dias
+  keywords:
+  - gg
+  - cc
+  - esquema
+  - esquema novo
+  - trampo
+  - metodo 2026
+  - metodo
+  - cartão de crédito
+  - bin
+  - live
+  - die
+  - cvv
+  - fullz
+  - amz
+  - amazon
+  - '552289'
+  - '546479'
+  - '498431'
+  - '485464'
+  - gg santa
+  - nas master
+  - checker
+  - aprovando
+  - passando
+  - método
+  - drop
+  - '422061'
+  - '512267'
+  - cashout
+  - refund
+  relevance_threshold: 0.6
+  store_history: true
+reports:
+  auto_summary: true
+  format: markdown
+  group_by_topic: true
+  output_dir: ./data/reports
+#INSIRA OS DADOS DA SUA API DO TELEGRAM AQUI\\\\\\\\\\\\\\\\\\\BY @IVM4NSEC
+telegram:
+  api_hash: #SUA HASH AQUI
+  api_id: #SEU ID AQUI
+  phone: #SEU NÚMERO AQUI
+  session_name: osint_session
