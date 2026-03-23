@@ -63,11 +63,10 @@ ollama:
 
 osint:
   keywords:
-    - trampo
-    - gg
-    - live 512267
-    - "422061"
-  relevance_threshold: 0.6  # 0-1, quanto maior mais restritivo
+    - visa
+    - mastercard
+    - cc
+    relevance_threshold: 0.6  # 0-1, quanto maior mais restritivo
 ```
 
 ### 3. Primeira execução
