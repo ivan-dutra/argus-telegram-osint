@@ -4,9 +4,22 @@ Não deve ser utilizado para atividades ilegais. Não me responsabilizo pelo mal
 
 
 
-# 🔍 Argus Telegram OSINT Bot
+# 🔍 Argus OSINT Bot 
 
-Sistema de monitoramento e análise em tempo real de grupos do Telegram, usando IA local (Ollama) para análise inteligente de mensagens.
+🇧🇷 O Argus é um sistema de inteligência que usa IA para analisar grandes volumes de dados e encontrar padrões relevantes.
+
+Esse repositório é só uma parte do projeto: o módulo de monitoramento do Telegram. Ele coleta mensagens em tempo real, aplica análise com IA local, filtra o que é relevante e gera relatórios automaticamente.
+
+O sistema completo vai além disso, com integração a outras plataformas e ferramentas mais avançadas de cruzamento de dados que também serão disponibiladas futuramente.
+
+---
+
+🇺🇸 Argus is an intelligence system that uses AI to analyze large volumes of data and identify meaningful patterns.
+
+This repository is just one part of the project: the Telegram monitoring module. It collects messages in real time, applies local AI analysis, filters relevant content, and generates automated reports.
+
+The full system goes further, with integrations across multiple platforms and more advanced data correlation tools which will be released soon.
+
 
 ## 🎯 Funcionalidades
 
