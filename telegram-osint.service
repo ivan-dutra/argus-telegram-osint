@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram OSINT Bot
+After=network.target
+
+[Service]
+Type=simple
+User=your_username
+WorkingDirectory=/path/to/telegram-osint-bot
+ExecStart=/usr/bin/python3 /path/to/telegram-osint-bot/main.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/path/to/telegram-osint-bot/logs/service.log
+StandardError=append:/path/to/telegram-osint-bot/logs/service.log
+
+[Install]
+WantedBy=multi-user.target
