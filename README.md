@@ -1,7 +1,5 @@
-##############﻿##############################@IVM4NSEC##########################################
-
 ⚠️ Este projeto é voltado para análise de segurança, OSINT e detecção de padrões suspeitos.
-Não deve ser utilizado para atividades ilegais. Não me responsabilizo pelo mal uso, ou quaisquer, atividades que infrinjam as leis. Uso somente educacional e ambiente controlado.
+Não deve ser utilizado para atividades ilegais. Não me responsabilizo pelo mal uso, ou quaisquer, atividades que infrinjam as leis do seu país. Uso somente educacional e em ambiente controlado.
 
 
 
